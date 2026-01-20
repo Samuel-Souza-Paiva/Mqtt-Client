@@ -3,7 +3,7 @@
 Este projeto é um **cliente** (Go e Python) que se conecta no **MQTT do Defense** para receber eventos em tempo real (alarmes, notificações, etc.).  
 A ideia é simples: **antes de acessar o broker**, você precisa passar pelo **BRMS** para pegar as credenciais corretas.
 
-## Como funciona (em linguagem “de gente”)
+## Como funciona:
 1. Você informa **host/porta/usuário/senha** do Defense (BRMS).
 2. O programa autentica no BRMS e recebe um **token** + duas chaves (**secretKey** e **secretVector**).
 3. Com esse token, ele chama o endpoint **GetMqConfig**, que devolve:
