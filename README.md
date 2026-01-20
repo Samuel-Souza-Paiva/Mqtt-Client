@@ -1,4 +1,4 @@
-# MQTT no Defense (README breve, “falado”)
+# MQTT no Defense
 
 Este projeto é um **cliente** (Go e Python) que se conecta no **MQTT do Defense** para receber eventos em tempo real (alarmes, notificações, etc.).  
 A ideia é simples: **antes de acessar o broker**, você precisa passar pelo **BRMS** para pegar as credenciais corretas.
