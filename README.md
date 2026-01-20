@@ -27,7 +27,7 @@ A ideia é simples: **antes de acessar o broker**, você precisa passar pelo **B
 ## Exemplo via flags
 
 ` go run main.go \
-  --host 10.100.61.138 \
+  --host 192.168.1.108 \
   --port 443 \
   --user system \
   --pass SUA_SENHA \
@@ -43,7 +43,7 @@ Arquivo sugerido: mqtt_defense.py (ou o nome que você salvou o script)
 
 2) Rodar via flags
 `python mqtt_defense.py \
-  --host 10.100.61.175 \
+  --host 192.168.1.108 \
   --port 443 \
   --user system \
   --pass SUA_SENHA \
